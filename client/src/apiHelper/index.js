@@ -3,7 +3,7 @@ import Toast from "../components/general/toast";
 import { getToken, removeData } from "../utils/common";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000/api/",
+  baseURL: "https://adsiduous-task-production.up.railway.app/api/",
   headers: {
     "Content-Type": "application/json",
   },
