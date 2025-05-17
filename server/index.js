@@ -12,10 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://adsiduous-task-production.up.railway.app",
-    ],
+    origin: ["http://localhost:5173", "https://adsiduous-task.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
