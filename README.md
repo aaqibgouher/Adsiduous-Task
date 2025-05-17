@@ -57,7 +57,7 @@ Make sure to copy all envs from env.example to .env
     ```bash
    npm run dev
 
-## Postman Collection
+## Postman Collection 
 I have also added postman collection, please import it while calling API's
 
     ```bash
